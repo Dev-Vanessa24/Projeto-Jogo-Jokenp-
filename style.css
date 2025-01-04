@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://t4.ftcdn.net/jpg/06/21/58/53/360_F_621585347_GATWJ061PptsBJqhGpSi6KWIFsxnYnCb.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#rock {
+    background-color: rgb(58, 43, 226);
+
+
+}
+
+#paper {
+    background-color: rgb(26, 208, 50);
+
+}
+
+
+#scissors {
+    background-color: rgb(205, 50, 50);
+
+}
+
+p {
+
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.your-score span {
+    color: rgb(4, 37, 112);
+}
+
+.machine-score span {
+    color: red;
+}
